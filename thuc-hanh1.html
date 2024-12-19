@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thuc-hanh-1</title>
+</head>
+<body>
+    <h1>Thực hành tạo form login</h1>
+    <form action="">
+        <label for="ten">Ho va Ten: </label>
+        <input type="text" name="ten" id="ten"/>
+        <label for="matkhau">Mat Khau: </label>
+        <input type="password" name="matkhau" id="matkhau"/><br/>
+        <!--radio chon-->
+        <input type="radio" name="gender" value="male"/> Male <br/>
+        <input type="radio" name="gender" value="female"/> Female <br/>
+        <input type="radio" name="gender" value="other" /> Other <br/>
+        <input list="member"/>
+    <!--data cua list member-->
+    <datalist id="member">
+        <option value="Thành viên bạc"></option>
+        <option value="Thành viên vàng"></option>
+        <option value="Thành viên kim cương"></option>
+    </datalist>
+    <!---->
+    <input type="color">
+    <input type="checkbox" name="correct" value="correct" />Correct
+    <input type="Submit" value="Submit">
+</form>
+</body>
+</html>
